@@ -9,12 +9,20 @@ bady {
 /* SITE-HEADER */
 
 .site-header {
-    background-color: #ffffff;
+display: flex;
+justify-content: space-between;
+    background-color: #fff;
+}
+
+.site-header-actions {
+    display: flex;
+    align-items: center;
 }
 
 /* SITENAV */
 
 .sitenav-list {
+    display: flex;
     list-style: none;
 }
 
@@ -43,6 +51,9 @@ bady {
 /* HERO */
 
 .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
 }
@@ -60,7 +71,7 @@ bady {
 .hero-headeng {
     font-size: 40px;
     line-height: 1.2;
-    font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif; 
+    font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
 }
 
 .hero-img {
@@ -75,7 +86,14 @@ bady {
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
+    font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
     letter-spacing: 0.5px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
 /* FEATURE */
@@ -95,13 +113,16 @@ bady {
 .feature-title {
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
 }
 
 
 /* PROMO */
 
 .promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
 }
@@ -113,6 +134,7 @@ bady {
 .promo-heading {
     font-size: 40px;
     line-height: 48px;
+    font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
 }
 
 .promo-highlight {
@@ -131,22 +153,36 @@ bady {
     background-color: #f8f8f8;
 }
 
+.site-footer-top {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
 .site-footer ul {
     list-style: none;
 }
 
-.site-footer-links {
+.site-footer-socials {
+    display: flex;
+    align-items: center;
     list-style: none;
 }
+
 
 .seti-footer-divirder {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
 
+.site-footer-bottom {
+    display: flex;
+}
+
 
 .site-footer-links {
     width: 224px;
+    line-height: 19px;
 }
 
 .site-footer-links a {
