@@ -5,6 +5,11 @@ bady {
     letter-spacing: 00.5px;
 }
 
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px; 
+}
+
 
 /* SITE-HEADER */
 
