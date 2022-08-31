@@ -16,6 +16,9 @@ bady {
 .site-header {
 display: flex;
 justify-content: space-between;
+padding-top: 16px;
+padding-bottom: 16px;
+border-top: 5px solid #ff7500;
     background-color: #fff;
 }
 
@@ -44,6 +47,7 @@ justify-content: space-between;
 .sitenav-list {
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
 
@@ -73,7 +77,10 @@ justify-content: space-between;
 /* MAIN-LINK */
 
 .main-link {
+    display: inline block;
+    padding: 12px 24px;
     font-size: 13px;
+    border-radius: 4px;
     line-height: 15px;
     background-color: #ff7500;
     color: #fff;
@@ -97,6 +104,8 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #252420;
     color: #fff;
 }
@@ -108,6 +117,7 @@ justify-content: space-between;
 .orange-line {
     width: 80px;
     height: 3px;
+    border: nane;
     background-color: #ff7500;
 }
 
@@ -125,6 +135,11 @@ justify-content: space-between;
 
 /* FEATURES */
 
+.features {
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
 .features-heading {
     width: 440px;
     font-size: 72px;
@@ -136,6 +151,7 @@ justify-content: space-between;
 .features-list {
     display: flex;
     justify-content: space-between;
+    padding: 0;
     list-style: none;
 }
 
@@ -149,6 +165,7 @@ justify-content: space-between;
 .feature-icon-wrapper {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -166,6 +183,7 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 12px;
     background-color: #252420;
     color: #fff;
 }
@@ -187,12 +205,15 @@ justify-content: space-between;
 .promo-img {
     width: 440px;
     height: 440px;
+    border-radius: 12px;
     object-fit: cover;
 }
 
 /* SITE-FOOTER */
 
 .site-footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
 }
 
@@ -203,12 +224,14 @@ justify-content: space-between;
 }
 
 .site-footer ul {
+    padding: 0;
     list-style: none;
 }
 
 .site-footer-socials {
     display: flex;
     align-items: center;
+    padding: 0;
     list-style: none;
 }
 
@@ -227,6 +250,7 @@ justify-content: space-between;
 
 .seti-footer-divirder {
     height: 2px;
+    border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
 
