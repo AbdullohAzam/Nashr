@@ -364,6 +364,7 @@ site-footer-socials svg {
 
 .site-footer-bottom {
     display: flex;
+    justify-content: center;
 }
 
 
